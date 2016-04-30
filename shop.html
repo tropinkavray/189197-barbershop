@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Барбершоп «Бородинский»</title>
   </head>
@@ -11,7 +12,7 @@
   			<nav class="main-navigation">
   				<ul>
   					<li>
-  						<a class="main-logo" href="#">Barbershop</a>
+  						<a class="main-logo" href="#"><img src="./img/logo.png" alt="Логотип"></a>
   					</li>
   					<li>
   						<a href="#">Информация</a>
@@ -99,45 +100,45 @@
 					    </li>
 			    	</ul>
 			    </fieldset>
-			    <button type="submit">Показать</button>
+			    <button class="btn" type="submit">Показать</button>
 			</form>
   		</div>
   		<div class="goods">
   			<article class="good">
 				<img src="./img/good_all.jpg" width="220" height="165" alt="Товар">
+				<div class="goods-buy">
 				<p>
 					Набор для путешествий<br>
 					«Baxter of California»
 				</p>
-				<div class="goods-buy">
 				  	<ul>
-				  		<li>2900руб</li>
-				 		<li><a class="buy" href="#">Купить</a></li>
+				  		<li class="price">2900руб</li>
+				 		<li class="buy"><a class="buy" href="#">Купить</a></li>
 				    </ul>
 				</div>
 			</article>
   			<article class="good">
 				<img src="./img/good_condicioner.jpg" width="220" height="165" alt="Товар">
+				<div class="goods-buy">
 				<p>
 					Увлажняющий кондиционер<br>
 					«Baxter of California»
 				</p>
-				<div class="goods-buy">
 				  	<ul>
-				  		<li>290руб</li>
+				  		<li class="price">290руб</li>
 				 		<li><a class="buy" href="#">Купить</a></li>
 				    </ul>
 				</div>
 			</article>
   			<article class="good">
 				<img src="./img/good_mud.jpg" width="220" height="165" alt="Товар">
+				<div class="goods-buy">
 				<p>
 					Гель для волос<br>
 					«SUAVECITO»
 				</p>
-				<div class="goods-buy">
 				  	<ul>
-				  		<li>290руб</li>
+				  		<li class="price">290руб</li>
 				 		<li><a class="buy" href="#">Купить</a></li>
 				    </ul>
 				</div>
@@ -145,27 +146,27 @@
   		
   			<article class="good">
 				<img src="./img/good_wax.jpg" width="220" height="165" alt="Товар">
+				<div class="goods-buy">
 				<p>
 					Глина для укладки волос<br> 
 					«American crew»
 				</p>
-				<div class="goods-buy">
 				  	<ul>
-				  		<li>500руб</li>
-				 		<li><a class="buy" href="#">Купить</a></li>
+				  		<li class="price">500руб</li>
+				 		<li><a class="buy" class="buy" href="#">Купить</a></li>
 				    </ul>
 				</div>
 			</article>
   		
   			<article class="good">
 				<img src="./img/good_gel.jpg" width="220" height="165" alt="Товар">
+				<div class="goods-buy">
 				<p>
 					Гель для волос<br>
 					«AMERICAN CREW»
 				</p>
-				<div class="goods-buy">
 				  	<ul>
-				  		<li>300руб</li>
+				  		<li class="price">300руб</li>
 				 		<li><a class="buy" href="#">Купить</a></li>
 				    </ul>
 				</div>
@@ -173,35 +174,35 @@
   		
   			<article class="good">
 				<img src="./img/good_all2.jpg" width="220" height="165" alt="Товар">
+				<div class="goods-buy">
 				<p>
 					Набор для бритья<br>
 					«Baxter of California»
 				</p>
-				<div class="goods-buy">
 				  	<ul>
-				  		<li>3900руб</li>
-				 		<li><a class="buy" href="#">Купить</a></li>
+				  		<li class="price">3900руб</li>
+				 		<li class="buy"><a class="buy" href="#">Купить</a></li>
 				    </ul>
 				</div>
 			</article>
 			<div class="paginator">
-            	<a class="current" >1</a>
-            	<a href="#">2</a>
-            	<a href="#">3</a>
-            	<a href="#">4</a>
+            	<div  class="paginator-item"><a href="#">1</a></div>
+            	<div class="paginator-item current">2</div>
+            	<div class="paginator-item"><a href="#">3</a></div>
+            	<div class="paginator-item"><a href="#">4</a></div>
         	</div>
   		</div>
-  		
   	</main>
 	<footer class="main-footer">
 		<div class="container">
 			<section class="footer-contact">
-       	 	Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+				БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+       	 		Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
           		<a href="#">Как нас найти?</a><br>
           		Телефон: +7 (812) 666-02-66
 			</section>
 			<section class="footer-social">
-  				<p>Давайте дружить!</p>
+  				<p>Давайте дружить!</p>	
           		<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           		<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           		<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
